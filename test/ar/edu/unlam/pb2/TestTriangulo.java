@@ -7,6 +7,7 @@ import org.junit.Test;
 
 public class TestTriangulo {
 
+	@SuppressWarnings("deprecation")
 	@Test
 	public void testCalculoPerimetro() {
 		Triangulo miTriangulo= new Triangulo();
