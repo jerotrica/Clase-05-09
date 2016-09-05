@@ -7,8 +7,11 @@ import org.junit.Test;
 public class TestTriangulo {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testCalculoPerimetro() {
+		Triangulo miTriangulo= new Triangulo();
+		miTriangulo.setLado1Triangulo(2.0);
+		miTriangulo.setLado2Triangulo(3d);
+		miTriangulo.setLado3Triangulo(5d);
 	}
 
 }
